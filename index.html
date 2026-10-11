@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M57WNVNJ');</script>
-<!-- End Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M57WNVNJ');</script>
+    <!-- End Google Tag Manager -->
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imersão Mulher de Valor | O Fim do Ciclo</title>
+    <title>Imersão Mulher de Valor | O Fim do Ciclo — Evento Presencial</title>
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.png">
@@ -23,7 +22,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- FontAwesome for Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     
-    <!-- Google Fonts: Playfair Display (Serif) & Lato (Sans-serif) -->
+    <!-- Google Fonts: Playfair Display & Lato -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
@@ -33,17 +32,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             theme: {
                 extend: {
                     colors: {
-                        primary: '#E08883',   // Rose/Coral (Identity)
-                        secondary: '#C8A273', // Gold/Beige (Identity)
-                        cream: '#FCF9F6',     // Light textured background
-                        dark: '#3A3331',      // Dark brownish grey for text
+                        primary: '#E08883',   // Rose/Coral
+                        secondary: '#C8A273', // Gold/Beige
+                        cream: '#FCF9F6',     // Light background
+                        dark: '#3A3331',      // Dark brownish grey text
+                        whatsapp: '#25D366'
                     },
                     fontFamily: {
                         playfair: ['"Playfair Display"', 'serif'],
                         lato: ['Lato', 'sans-serif'],
                     },
                     boxShadow: {
-                        'glow': '0 0 20px rgba(224, 136, 131, 0.4)',
+                        'glow': '0 0 25px rgba(224, 136, 131, 0.35)',
+                        'gold': '0 0 25px rgba(200, 162, 115, 0.35)'
                     }
                 }
             }
@@ -62,201 +63,216 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 <body class="font-lato bg-cream text-dark">
 
-    <!-- Top Bar -->
-    <div class="bg-primary text-white text-center py-2 px-4 text-xs md:text-sm font-semibold tracking-widest uppercase shadow-md relative z-20">
-        RIO DE JANEIRO • 14 DE NOVEMBRO DE 2026 • APENAS 50 VAGAS
+    <!-- Top Notice Strip -->
+    <div class="bg-dark text-cream text-center py-2 px-4 text-xs md:text-sm font-semibold tracking-widest uppercase relative z-30">
+        📍 RIO DE JANEIRO • 14 DE NOVEMBRO DE 2026 • CDESIGN HOTEL (RECREIO)
     </div>
 
     <!-- Hero Section -->
-    <header class="relative hero-bg py-20 lg:py-32">
+    <header class="relative hero-bg pt-8 pb-16 lg:pb-24">
         <!-- Overlay -->
-        <div class="absolute inset-0 bg-[#FCF9F6] bg-opacity-85 backdrop-blur-[1px]"></div>
+        <div class="absolute inset-0 bg-[#FCF9F6] bg-opacity-92 backdrop-blur-[1px]"></div>
         
         <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
-            <!-- Optional Logo placement placeholder if needed -->
-            <!-- <img src="logo.png" alt="Mulher de Valor" class="h-20 mx-auto mb-8"> -->
 
-            <h1 class="font-playfair text-3xl md:text-5xl lg:text-5xl text-dark font-bold leading-tight mb-6">
-                Antes de desistir do seu casamento, descubra o <span class="text-primary italic">padrão invisível</span> que pode estar desgastando a sua relação sem você perceber.
+            <!-- BARRA DE DISPONIBILIDADE ANCORADA NO TOPO -->
+            <div class="max-w-2xl mx-auto bg-white p-5 md:p-6 rounded-2xl shadow-md border border-primary/20 mb-8">
+                <div class="flex flex-col sm:flex-row justify-between items-center mb-2.5 text-xs md:text-sm font-bold gap-1 sm:gap-0">
+                    <span class="text-primary uppercase tracking-wider flex items-center">
+                        <i class="fas fa-fire mr-1.5 text-base"></i> DISPONIBILIDADE DO 1º LOTE
+                    </span>
+                    <span class="text-dark/80">Restam apenas <strong>20 de 20</strong> vagas Standard</span>
+                </div>
+                
+                <div class="w-full bg-cream rounded-full h-3.5 overflow-hidden border border-primary/20 mb-3">
+                    <div class="bg-primary h-3.5 rounded-full transition-all duration-500" style="width: 60%"></div>
+                </div>
+
+                <div class="flex justify-between items-center text-xs md:text-sm text-dark/70 font-semibold border-t border-cream pt-2.5">
+                    <span><i class="fas fa-crown text-secondary mr-1"></i> Lote VIP: <strong>0 de 10</strong> vagas restantes</span>
+                    <span class="text-secondary font-bold">1º Lote encerra em breve!</span>
+                </div>
+            </div>
+
+            <!-- TÍTULO E HEADLINE -->
+            <h1 class="font-playfair text-3xl md:text-5xl lg:text-5xl text-dark font-bold leading-tight mb-4">
+                Imersão Mulher de Valor
             </h1>
             
-            <p class="text-lg md:text-xl text-dark/90 mb-10 max-w-3xl mx-auto leading-relaxed">
-                No dia 14 de novembro, Pati Pasquali vai reunir apenas 50 mulheres, no Rio de Janeiro, para uma manhã presencial de 4 horas sobre os ciclos emocionais que se repetem dentro dos relacionamentos.
+            <p class="text-xl md:text-2xl text-primary font-bold mb-6 font-playfair italic">
+                O Fim do Ciclo: O evento presencial no Rio de Janeiro para quebrar os padrões invisíveis que estão desgastando o seu casamento.
             </p>
-            
-            <a href="https://chat.whatsapp.com/BiYr7R64HhuF4c99FFi9uz?mode=gi_t" target="_blank" class="inline-block bg-primary text-white font-bold text-lg md:text-xl py-4 px-8 md:px-12 rounded-full shadow-glow hover:bg-opacity-90 hover:-translate-y-1 transition-all duration-300 mb-6">
-                QUERO ENTRAR NA LISTA PRIORITÁRIA
-            </a>
-            
-            <p class="text-sm md:text-base text-dark/80 mb-8 max-w-2xl mx-auto font-light">
-                Entre agora na Lista Prioritária da <strong>Imersão Mulher de Valor: O Fim do Ciclo</strong> e receba acesso antecipado à abertura do 1º Lote, limitado a apenas 20 vagas.
+
+            <p class="text-base md:text-lg text-dark/90 mb-8 max-w-3xl mx-auto leading-relaxed">
+                Uma manhã presencial e exclusiva de 4 horas com a mentora de mulheres Pati Pasquali, projetada para apenas <strong>50 mulheres</strong> que decidiram resgatar a sua força, posicionar-se com segurança e salvar a sua relação sem brigas exaustivas.
             </p>
-            
-            <div class="flex flex-wrap justify-center gap-4 md:gap-8 text-sm md:text-base font-semibold text-dark/80">
-                <span class="flex items-center"><i class="fas fa-users-slash text-secondary mr-2 text-lg"></i> Grupo silencioso</span>
-                <span class="flex items-center"><i class="fas fa-ban text-secondary mr-2 text-lg"></i> Sem spam</span>
-                <span class="flex items-center"><i class="fas fa-unlock-alt text-secondary mr-2 text-lg"></i> Acesso antecipado</span>
+
+            <!-- SELOS DE DESTAQUE -->
+            <div class="flex flex-wrap justify-center gap-3 md:gap-6 text-xs md:text-sm font-bold text-dark/80 mb-8">
+                <span class="bg-white px-4 py-2 rounded-full border border-secondary/30 shadow-sm flex items-center"><i class="fas fa-users text-secondary mr-2"></i> Experiência Íntima (Apenas 50 Lugares)</span>
+                <span class="bg-white px-4 py-2 rounded-full border border-secondary/30 shadow-sm flex items-center"><i class="fas fa-coffee text-secondary mr-2"></i> Coffee Break Incluso</span>
+                <span class="bg-white px-4 py-2 rounded-full border border-secondary/30 shadow-sm flex items-center"><i class="fas fa-book-open text-secondary mr-2"></i> Kit Físico de Dinâmicas</span>
             </div>
+
+            <a href="#ingressos" class="inline-block bg-primary text-white font-bold text-lg md:text-xl py-4 px-10 rounded-full shadow-glow hover:bg-opacity-90 hover:-translate-y-1 transition-all duration-300">
+                GARANTIR MEU INGRESSO NO 1º LOTE
+            </a>
         </div>
     </header>
 
     <!-- Problem Section -->
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div class="max-w-3xl mx-auto">
-            <h2 class="font-playfair text-3xl md:text-4xl text-primary font-bold mb-8 text-center leading-tight">
-                Talvez o que precise acabar não seja o seu casamento. Talvez seja o ciclo.
+            <h2 class="font-playfair text-3xl md:text-4xl text-primary font-bold mb-6 text-center leading-tight">
+                Talvez o problema não seja o seu casamento. Talvez seja o ciclo que se repete.
             </h2>
             
-            <div class="space-y-5 text-lg text-dark/90 leading-relaxed mb-12">
+            <div class="space-y-4 text-base md:text-lg text-dark/90 leading-relaxed mb-10">
                 <p>
-                    Você já percebeu que muda o motivo da discussão, mas no final vocês parecem chegar sempre ao mesmo lugar?
+                    Você já reparou que o motivo da discussão muda, mas o sentimento final é exatamente o mesmo?
                 </p>
-                <div class="bg-cream/50 p-6 rounded-lg border-l-4 border-secondary my-6">
-                    <p class="italic text-dark/80 font-medium text-center text-xl">
-                        Uma hora é dinheiro. Outra são os filhos. Depois é a falta de carinho. A intimidade que diminuiu. A cobrança. O silêncio. A sensação de estar carregando tudo sozinha.
+                <div class="bg-cream p-6 rounded-2xl border-l-4 border-secondary my-6 shadow-sm">
+                    <p class="italic text-dark/80 font-medium text-center text-lg md:text-xl">
+                        A falta de carinho, a intimidade que esfriou, a cobrança financeira, a sobrecarga com os filhos, o silêncio e a sensação exaustiva de estar carregando a casa inteira nas costas.
                     </p>
                 </div>
                 <p>
-                    E mesmo quando vocês prometem que <span class="italic">“dessa vez vai ser diferente”</span>... algum tempo depois o ciclo começa novamente.
+                    Vocês prometem que "dessa vez vai ser diferente", mas semanas depois o padrão invisível assume o controle e a briga recomeça.
                 </p>
-                <p class="font-bold text-primary text-xl mt-4">
-                    Talvez exista algo acontecendo antes da discussão que você ainda não conseguiu enxergar. E é exatamente isso que vamos começar a revelar nesta imersão.
+                <p class="font-bold text-primary text-lg md:text-xl">
+                    Existe algo acontecendo antes do conflito explodir que você ainda não conseguiu enxergar. É isso que vamos revelar e virar a chave na manhã do dia 14 de novembro.
                 </p>
             </div>
 
-            <div class="bg-cream rounded-2xl p-6 md:p-10 shadow-sm border border-secondary/20 relative">
-                <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white px-4">
-                    <i class="fas fa-search-heart text-3xl text-secondary"></i>
-                </div>
-                <h3 class="font-playfair text-2xl text-dark font-semibold mb-8 mt-4 text-center">Você se reconhece em alguma dessas situações?</h3>
+            <div class="bg-cream rounded-2xl p-6 md:p-8 shadow-sm border border-secondary/20 relative">
+                <h3 class="font-playfair text-xl md:text-2xl text-dark font-semibold mb-6 text-center">Identifica-se com algum desses momentos?</h3>
                 
-                <ul class="space-y-4 text-lg">
+                <ul class="space-y-3.5 text-base md:text-lg">
                     <li class="flex items-start">
-                        <i class="fas fa-check-circle text-primary mt-1 mr-4 text-xl"></i>
-                        <span><strong>Você ama seu marido,</strong> mas já pensou em se separar porque não aguenta mais viver dessa forma.</span>
+                        <i class="fas fa-check-circle text-primary mt-1 mr-3 text-lg"></i>
+                        <span>Você ama seu marido, mas já cogitou a separação por não aguentar a convivência atual.</span>
                     </li>
                     <li class="flex items-start">
-                        <i class="fas fa-check-circle text-primary mt-1 mr-4 text-xl"></i>
-                        <span><strong>Vocês ainda moram juntos,</strong> mas às vezes parecem dois colegas administrando uma casa.</span>
+                        <i class="fas fa-check-circle text-primary mt-1 mr-3 text-lg"></i>
+                        <span>Vocês dividem a mesma casa, mas vivem como dois colegas administrando tarefas.</span>
                     </li>
                     <li class="flex items-start">
-                        <i class="fas fa-check-circle text-primary mt-1 mr-4 text-xl"></i>
-                        <span>Você sente que precisa resolver, lembrar, decidir e <strong>controlar tudo.</strong></span>
+                        <i class="fas fa-check-circle text-primary mt-1 mr-3 text-lg"></i>
+                        <span>Sente a obrigação de lembrar, organizar e controlar tudo para a vida funcionar.</span>
                     </li>
                     <li class="flex items-start">
-                        <i class="fas fa-check-circle text-primary mt-1 mr-4 text-xl"></i>
-                        <span>Toda tentativa de conversar termina em <strong>cobrança, defesa, silêncio ou discussão.</strong></span>
+                        <i class="fas fa-check-circle text-primary mt-1 mr-3 text-lg"></i>
+                        <span>Qualquer conversa vira cobrança, tom defensivo, silêncio punitivo ou discussão.</span>
                     </li>
                     <li class="flex items-start">
-                        <i class="fas fa-check-circle text-primary mt-1 mr-4 text-xl"></i>
-                        <span>Você tem <strong>dificuldade de dizer não,</strong> colocar limites ou se posicionar sem culpa.</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-check-circle text-primary mt-1 mr-4 text-xl"></i>
-                        <span>Alguns problemas parecem <strong>desaparecer por um tempo...</strong> e depois voltam.</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-check-circle text-primary mt-1 mr-4 text-xl"></i>
-                        <span>Você quer que o casamento melhore, mas já <strong>não sabe por onde começar.</strong></span>
+                        <i class="fas fa-check-circle text-primary mt-1 mr-3 text-lg"></i>
+                        <span>Tem dificuldade em impor limites ou dizer "não" sem carregar uma culpa esmagadora.</span>
                     </li>
                 </ul>
             </div>
-            
-            <p class="text-center text-xl font-semibold mt-10 text-dark">
-                Se alguma dessas situações parece familiar, essa experiência foi pensada para <span class="text-primary">você</span>.
-            </p>
         </div>
     </section>
 
-    <!-- Solution Section -->
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-cream">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-16">
-                <p class="text-secondary font-bold tracking-widest uppercase mb-2">Imersão Mulher de Valor</p>
-                <h2 class="font-playfair text-4xl md:text-5xl text-dark font-bold mb-6">O FIM DO CICLO</h2>
-                <p class="text-xl text-dark/80 max-w-3xl mx-auto">
-                    Como quebrar os padrões invisíveis que sabotam o seu casamento e resgatar o seu lugar de força.
-                </p>
-            </div>
-            
-            <div class="max-w-4xl mx-auto mb-16">
-                <p class="text-lg text-center mb-6">
-                    Em uma manhã presencial, Pati vai conduzir você por um processo de consciência e clareza para começar a reconhecer:
-                </p>
-                <div class="flex flex-col md:flex-row justify-center items-center gap-4 text-lg font-bold text-primary bg-white py-4 px-6 rounded-xl shadow-sm border border-secondary/10">
-                    <span>O que acontece</span>
-                    <i class="fas fa-arrow-right text-secondary hidden md:block"></i>
-                    <i class="fas fa-arrow-down text-secondary md:hidden"></i>
-                    <span>O que você sente</span>
-                    <i class="fas fa-arrow-right text-secondary hidden md:block"></i>
-                    <i class="fas fa-arrow-down text-secondary md:hidden"></i>
-                    <span>Como você reage</span>
-                    <i class="fas fa-arrow-right text-secondary hidden md:block"></i>
-                    <i class="fas fa-arrow-down text-secondary md:hidden"></i>
-                    <span>A consequência</span>
-                </div>
-            </div>
-
-            <h3 class="font-playfair text-3xl text-center font-bold mb-10 text-dark">Os 3 movimentos da manhã</h3>
-
-            <!-- 3 Cards -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white rounded-2xl p-8 border-t-4 border-primary shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-12 h-12 bg-cream text-primary rounded-full flex items-center justify-center text-2xl font-bold mb-6">1</div>
-                    <h4 class="font-playfair text-xl font-bold text-dark mb-4">O CICLO QUE SE REPETE</h4>
-                    <p class="text-dark/80">Você vai começar a reconhecer os padrões que continuam aparecendo nas suas relações, mesmo quando os assuntos e situações parecem diferentes.</p>
-                </div>
-                
-                <div class="bg-white rounded-2xl p-8 border-t-4 border-secondary shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-12 h-12 bg-cream text-secondary rounded-full flex items-center justify-center text-2xl font-bold mb-6">2</div>
-                    <h4 class="font-playfair text-xl font-bold text-dark mb-4">DE ONDE ESSE PADRÃO VEM</h4>
-                    <p class="text-dark/80">Vamos olhar para experiências, crenças, medos e respostas emocionais que podem estar influenciando a maneira como você interpreta e reage dentro dos seus relacionamentos.</p>
-                </div>
-
-                <div class="bg-white rounded-2xl p-8 border-t-4 border-primary shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-12 h-12 bg-cream text-primary rounded-full flex items-center justify-center text-2xl font-bold mb-6">3</div>
-                    <h4 class="font-playfair text-xl font-bold text-dark mb-4">O FIM DO CICLO</h4>
-                    <p class="text-dark/80">Você será convidada a olhar para a mulher que vem sendo até aqui e começar a definir como deseja se posicionar daqui para frente.</p>
-                </div>
-            </div>
-
-            <div class="mt-20 text-center">
-                <blockquote class="font-playfair italic text-3xl md:text-4xl text-primary font-bold">
-                    “Consciência sem decisão vira apenas informação.”
-                </blockquote>
-            </div>
-        </div>
-    </section>
-
-    <!-- About the Mentor Section -->
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <!-- Programação Completa -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-cream border-t border-b border-secondary/20">
         <div class="max-w-5xl mx-auto">
-            <h2 class="font-playfair text-3xl md:text-4xl text-dark font-bold mb-12 text-center">Quem vai conduzir essa experiência?</h2>
+            <div class="text-center mb-12">
+                <span class="text-secondary font-bold tracking-widest uppercase text-xs md:text-sm">Programação Oficial</span>
+                <h2 class="font-playfair text-3xl md:text-4xl text-dark font-bold mt-2 mb-4">O Roteiro da Sua Manhã Presencial</h2>
+                <p class="text-base md:text-lg text-dark/80 max-w-2xl mx-auto">
+                    Um itinerário prático de 4 horas cuidadosamente estruturado para gerar consciência, decisão e transformação real.
+                </p>
+            </div>
+
+            <div class="space-y-6 max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-2xl border border-secondary/20 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
+                    <div class="bg-primary/10 text-primary font-bold px-4 py-2 rounded-xl text-center min-w-[110px]">
+                        08h30 - 09h00
+                    </div>
+                    <div>
+                        <h3 class="font-playfair font-bold text-lg text-dark">Credenciamento, Kit Exclusivo & Recepção</h3>
+                        <p class="text-sm text-dark/70">Check-in individual, entrega do crachá, kit físico de exercícios e acomodação na sala presencial do CDesign Hotel.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-secondary/20 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
+                    <div class="bg-secondary/15 text-secondary font-bold px-4 py-2 rounded-xl text-center min-w-[110px]">
+                        09h00 - 10h15
+                    </div>
+                    <div>
+                        <h3 class="font-playfair font-bold text-lg text-dark">Bloco 1: A Linguagem do Amor & O Ciclo que se Repete</h3>
+                        <p class="text-sm text-dark/70">Mapeamento dos ruídos de comunicação + <strong>Dinâmica 1 (O Ciclo em 4 Partes)</strong>: você preencherá visualmente o que acontece, o que sente, como reage e a consequência direta do padrão.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-secondary/20 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
+                    <div class="bg-primary/10 text-primary font-bold px-4 py-2 rounded-xl text-center min-w-[110px]">
+                        10h15 - 10h45
+                    </div>
+                    <div>
+                        <h3 class="font-playfair font-bold text-lg text-dark">Coffee Break de Conectividade</h3>
+                        <p class="text-sm text-dark/70">Momento de descompressão, alimentação refinada oferecida pelo hotel e troca de experiências entre as participantes.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-secondary/20 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
+                    <div class="bg-secondary/15 text-secondary font-bold px-4 py-2 rounded-xl text-center min-w-[110px]">
+                        10h45 - 11h45
+                    </div>
+                    <div>
+                        <h3 class="font-playfair font-bold text-lg text-dark">Bloco 2: Mapeamento da Ferida Emocional & A Cadeira da Escolha</h3>
+                        <p class="text-sm text-dark/70">Descoberta do gatilho inconsciente que gera a autoanulação + <strong>Dinâmica 2 (A Cadeira da Escolha)</strong>: vivência marcante para se despedir da mulher defensiva e declarar o compromisso com quem você escolhe ser.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-secondary/20 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
+                    <div class="bg-primary/10 text-primary font-bold px-4 py-2 rounded-xl text-center min-w-[110px]">
+                        11h45 - 13h00
+                    </div>
+                    <div>
+                        <h3 class="font-playfair font-bold text-lg text-dark">Bloco 3: Ressignificação, Carta de Encerramento & Próximos Passos</h3>
+                        <p class="text-sm text-dark/70">Plano de posicionamento prático + <strong>Dinâmica 3 (A Carta "O Padrão Termina em Mim")</strong>: assinatura da sua decisão consciente + encerramento oficial da imersão presencial.</p>
+                    </div>
+                </div>
+
+                <div class="bg-secondary/10 p-6 rounded-2xl border-2 border-secondary shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
+                    <div class="bg-secondary text-white font-bold px-4 py-2 rounded-xl text-center min-w-[110px]">
+                        13h00 +
+                    </div>
+                    <div>
+                        <h3 class="font-playfair font-bold text-lg text-dark">Almoço Privativo & Experiência VIP (Apenas 10 Vagas)</h3>
+                        <p class="text-sm text-dark/80">Almoço em mesa reservada com a Pati Pasquali, registro fotográfico individual e direcionamento exclusivo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentor Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="font-playfair text-3xl md:text-4xl text-dark font-bold mb-10 text-center">Sua Mentora e Condução</h2>
             
-            <div class="flex flex-col md:flex-row items-center gap-12">
-                <!-- User's Requested Image Tag -->
+            <div class="flex flex-col md:flex-row items-center gap-10">
                 <div class="w-full md:w-5/12">
-                    <!-- EXACT TAG REQUESTED BY USER -->
-                    <img src="img01.jpeg" alt="Foto da Pati Pasquali" class="w-full h-auto object-cover rounded-lg shadow-md">
+                    <img src="img01.jpeg" alt="Foto da Pati Pasquali" class="w-full h-auto object-cover rounded-2xl shadow-md border border-secondary/20">
                 </div>
                 
-                <!-- Bio Text -->
-                <div class="w-full md:w-7/12 space-y-6 text-lg text-dark/90">
+                <div class="w-full md:w-7/12 space-y-5 text-base md:text-lg text-dark/90">
                     <div>
-                        <h3 class="font-playfair text-4xl text-primary font-bold">Pati Pasquali</h3>
-                        <p class="text-secondary font-bold text-xl uppercase tracking-wider mt-2">Psicóloga e Mentora de Mulheres</p>
+                        <h3 class="font-playfair text-3xl md:text-4xl text-primary font-bold">Pati Pasquali</h3>
+                        <p class="text-secondary font-bold text-lg uppercase tracking-wider mt-1">Mentora de Mulheres</p>
                     </div>
                     
                     <p>
-                        Pati construiu sua atuação trabalhando comportamento, desenvolvimento feminino e relacionamentos.
+                        Mentora especializada em comportamento, desenvolvimento feminino e dinâmicas de relacionamento.
                     </p>
                     <p>
-                        Também carrega uma história de <strong>35 anos de relacionamento com seu marido</strong>, trazendo para sua comunicação não apenas formação profissional, mas uma vivência pessoal de construção de casamento e família.
+                        Une metodologia prática à vivência real de <strong>35 anos de casamento com o seu marido</strong>, oferecendo uma condução segura, acolhedora e sem teorias inalcançáveis.
                     </p>
-                    <div class="p-6 bg-cream border-l-4 border-secondary mt-8 rounded-r-lg">
-                        <p class="font-playfair italic text-xl text-dark">
-                            A Imersão Mulher de Valor nasce da união desses dois territórios:<br>
-                            <span class="text-primary font-bold">a mulher que existe dentro da relação</span> e <span class="text-primary font-bold">a relação que essa mulher está construindo.</span>
+                    <div class="p-5 bg-cream border-l-4 border-secondary mt-6 rounded-r-xl">
+                        <p class="font-playfair italic text-lg text-dark">
+                            “Consciência sem decisão vira apenas informação. O nosso encontro no Rio de Janeiro não é para você apenas entender de onde veio, mas decidir para onde vai.”
                         </p>
                     </div>
                 </div>
@@ -264,114 +280,195 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </section>
 
-    <!-- Logistics & Urgency -->
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-cream border-t border-b border-secondary/20">
+    <!-- TABELA DE INGRESSOS (DESIGN FIEL À VERSÃO 1 / IMAGEM FORNECIDA) -->
+    <section id="ingressos" class="py-16 px-4 sm:px-6 lg:px-8 bg-cream border-t border-b border-secondary/20">
         <div class="max-w-5xl mx-auto">
             
             <div class="text-center mb-12">
-                <h2 class="font-playfair text-4xl text-primary font-bold mb-4">Uma manhã. 50 mulheres.</h2>
-                <p class="text-lg text-dark/80 max-w-2xl mx-auto">A proposta não é realizar um evento para centenas de pessoas. Queremos preservar proximidade, experiência e espaço para as dinâmicas.</p>
+                <span class="bg-primary/15 text-primary font-bold px-4 py-1.5 rounded-full text-xs md:text-sm uppercase tracking-widest">Inscrições Abertas</span>
+                <h2 class="font-playfair text-3xl md:text-5xl text-dark font-bold mt-3 mb-3">Escolha a sua experiência</h2>
+                <p class="text-base md:text-lg text-dark/80 max-w-2xl mx-auto">Apenas 50 lugares no total para garantir atendimento próximo e experiência exclusiva.</p>
             </div>
 
-            <!-- Lotes and Details Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <!-- Grid de Ingressos Estilizado exatamente como a Versão 1 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch pt-6">
                 
-                <!-- Lotes -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-secondary/30">
-                    <h3 class="font-playfair text-2xl text-dark font-bold mb-6 border-b border-cream pb-4">Disponibilidade de Vagas</h3>
-                    <ul class="space-y-4 text-lg">
-                        <li class="flex justify-between items-center p-4 bg-primary/10 rounded-lg border-l-4 border-primary">
-                            <span class="font-bold text-primary">1º Lote</span>
-                            <span class="text-primary font-bold bg-white px-3 py-1 rounded-full text-sm">20 vagas</span>
-                        </li>
-                        <li class="flex justify-between items-center p-4 text-dark/70">
-                            <span class="font-bold">2º Lote</span>
-                            <span>15 vagas</span>
-                        </li>
-                        <li class="flex justify-between items-center p-4 text-dark/70">
-                            <span class="font-bold">3º Lote</span>
-                            <span>15 vagas</span>
-                        </li>
-                    </ul>
-                    <p class="text-sm text-dark/60 mt-6 italic bg-cream p-4 rounded-lg">
-                        * Quando o limite de um lote for atingido, a condição seguinte entra. Além disso, existirão apenas <strong>10 experiências VIP</strong> em todo o evento.
-                    </p>
+                <!-- INGRESSO STANDARD -->
+                <div class="bg-white rounded-3xl p-8 md:p-10 shadow-sm border border-[#EAE2D8] flex flex-col justify-between relative">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="font-playfair text-2xl md:text-3xl font-bold text-dark">Ingresso Standard</h3>
+                            <span class="bg-[#F5EFE6] text-[#A68A64] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">LOTE 1</span>
+                        </div>
+                        <p class="text-sm text-dark/70 mb-8 leading-relaxed">Acesso completo à imersão presencial de 4 horas e materiais de apoio.</p>
+                        
+                        <div class="mb-8">
+                            <span class="text-xs text-dark/40 line-through block font-medium">Lote 3: R$ 520,00</span>
+                            <div class="text-4xl md:text-5xl font-bold text-[#E08883] mt-1">
+                                R$ 367,00 <span class="text-sm font-normal text-dark/60">à vista</span>
+                            </div>
+                            <p class="text-xs text-dark/50 mt-1.5 font-medium">ou até 12x no cartão de crédito</p>
+                        </div>
+
+                        <ul class="space-y-4 text-sm text-dark/80 mb-10 border-t border-[#F5EFE6] pt-6">
+                            <li class="flex items-center"><i class="fas fa-check text-[#E08883] mr-3 text-base"></i> Credenciamento e acesso ao evento (9h às 13h)</li>
+                            <li class="flex items-center"><i class="fas fa-check text-[#E08883] mr-3 text-base"></i> Coffee Break completo no hotel</li>
+                            <li class="flex items-center"><i class="fas fa-check text-[#E08883] mr-3 text-base"></i> Kit com caderno de exercícios e dinâmicas</li>
+                            <li class="flex items-center"><i class="fas fa-check text-[#E08883] mr-3 text-base"></i> Certificado de participação digital</li>
+                        </ul>
+                    </div>
+
+                    <a href="https://pay.kiwify.com.br/yN9FpyL" target="_blank" class="block text-center bg-[#3A3331] text-white font-bold py-4 rounded-full hover:bg-primary transition-all duration-300 shadow-md uppercase tracking-wider text-sm">
+                        COMPRAR INGRESSO STANDARD
+                    </a>
                 </div>
 
-                <!-- Location -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-secondary/30 relative overflow-hidden">
-                    <div class="absolute top-0 right-0 opacity-5 text-9xl transform translate-x-1/4 -translate-y-1/4">
-                        <i class="fas fa-map-marked-alt text-primary"></i>
+                <!-- INGRESSO EXPERIÊNCIA VIP -->
+                <div class="bg-white rounded-3xl p-8 md:p-10 shadow-gold border-2 border-[#C8A273] flex flex-col justify-between relative">
+                    <!-- Flutuante VIP no topo direito da borda -->
+                    <div class="absolute -top-3.5 right-6 bg-[#C8A273] text-white font-bold text-[11px] px-4 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                        APENAS 10 VAGAS EXCLUSIVAS
                     </div>
-                    <h3 class="font-playfair text-2xl text-dark font-bold mb-6 relative z-10">Quando e onde?</h3>
-                    <ul class="space-y-6 text-lg relative z-10 text-dark/90">
-                        <li class="flex items-start">
-                            <div class="bg-cream p-3 rounded-full mr-4 text-primary">
-                                <i class="far fa-calendar-alt text-xl w-6 text-center"></i>
+
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="font-playfair text-2xl md:text-3xl font-bold text-dark">Experiência VIP</h3>
+                            <span class="bg-[#F9F3EA] text-[#C8A273] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">EXCLUSIVO</span>
+                        </div>
+                        <p class="text-sm text-dark/70 mb-8 leading-relaxed">Para quem busca acompanhamento próximo e mentoria individual com a Pati.</p>
+                        
+                        <div class="mb-8">
+                            <div class="text-4xl md:text-5xl font-bold text-[#C8A273] mt-1">
+                                R$ 997,00 <span class="text-sm font-normal text-dark/60">à vista</span>
                             </div>
-                            <div>
-                                <strong class="block text-xl">14 de novembro de 2026</strong>
-                                <span class="text-base text-dark/70">Sábado | Check-in: 8h30 | Imersão: 9h às 13h</span>
-                            </div>
-                        </li>
-                        <li class="flex items-start">
-                            <div class="bg-cream p-3 rounded-full mr-4 text-primary">
-                                <i class="fas fa-map-marker-alt text-xl w-6 text-center"></i>
-                            </div>
-                            <div>
-                                <strong class="block text-xl">CDesign Hotel</strong>
-                                <span class="text-base text-dark/70">Av. Lúcio Costa, 17.360<br>Recreio dos Bandeirantes — Rio de Janeiro</span>
-                            </div>
-                        </li>
-                        <li class="flex items-center">
-                            <div class="bg-cream p-3 rounded-full mr-4 text-primary">
-                                <i class="fas fa-coffee text-xl w-6 text-center"></i>
-                            </div>
-                            <strong class="text-lg">Coffee break incluso.</strong>
-                        </li>
-                    </ul>
+                            <p class="text-xs text-dark/50 mt-1.5 font-medium">ou até 12x no cartão de crédito</p>
+                        </div>
+
+                        <ul class="space-y-4 text-sm text-dark/80 mb-10 border-t border-[#F5EFE6] pt-6">
+                            <li class="flex items-center font-bold text-[#C8A273]"><i class="fas fa-star mr-3 text-sm"></i> Tudo do Ingresso Standard +</li>
+                            <li class="flex items-start"><i class="fas fa-check text-[#C8A273] mr-3 mt-0.5 text-base"></i> <span><strong>Almoço Exclusivo com a Pati Pasquali</strong> no dia do evento</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-[#C8A273] mr-3 mt-0.5 text-base"></i> <span><strong>1 Sessão Estratégica Individual</strong> pós-evento</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-[#C8A273] mr-3 mt-0.5 text-base"></i> <span><strong>Assento nas primeiras fileiras & Check-in prioritário</strong></span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-[#C8A273] mr-3 mt-0.5 text-base"></i> <span><strong>Foto Exclusiva com a Pati Pasquali</strong></span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-[#C8A273] mr-3 mt-0.5 text-base"></i> <span><strong>Brinde & Caneca Exclusiva da Imersão</strong></span></li>
+                        </ul>
+                    </div>
+
+                    <a href="https://pay.kiwify.com.br/sx1ThAn" target="_blank" class="block text-center bg-[#C8A273] text-white font-bold py-4 rounded-full hover:bg-opacity-90 transition-all duration-300 shadow-md uppercase tracking-wider text-sm">
+                        GARANTIR EXPERIÊNCIA VIP
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Dados do Evento -->
+            <div class="mt-12 bg-white p-8 rounded-2xl border border-secondary/20 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div>
+                    <i class="far fa-calendar-alt text-2xl text-primary mb-2"></i>
+                    <strong class="block text-dark font-playfair text-lg">Data & Horário</strong>
+                    <span class="text-sm text-dark/70">14/11/2026 • 09h às 13h<br>(Check-in às 08h30)</span>
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt text-2xl text-primary mb-2"></i>
+                    <strong class="block text-dark font-playfair text-lg">Localização</strong>
+                    <span class="text-sm text-dark/70">CDesign Hotel<br>Recreio dos Bandeirantes, RJ</span>
+                </div>
+                <div>
+                    <i class="fas fa-shield-alt text-2xl text-primary mb-2"></i>
+                    <strong class="block text-dark font-playfair text-lg">Compra Segura</strong>
+                    <span class="text-sm text-dark/70">Confirmação imediata e suporte via WhatsApp</span>
                 </div>
             </div>
-            
+
         </div>
     </section>
 
-    <!-- Final CTA & Footer -->
-    <section class="py-24 px-4 sm:px-6 lg:px-8 bg-white text-center">
-        <div class="max-w-3xl mx-auto">
-            <h2 class="font-playfair text-3xl md:text-4xl text-dark font-bold mb-6">
-                Não deixe para decidir quando restar a última cadeira.
-            </h2>
-            <p class="text-xl text-primary font-bold mb-10 bg-primary/10 inline-block px-6 py-2 rounded-full">
-                São somente 50 mulheres. O 1º lote terá apenas 20 vagas.
-            </p>
+    <!-- FAQ SECTION (DESIGN EXATO DA SUA IMAGEM) -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="font-playfair text-3xl md:text-5xl text-dark font-bold mb-12 text-center">Perguntas Frequentes</h2>
             
-            <p class="text-lg text-dark/80 mb-10">
-                Se você sente que chegou o momento de olhar com mais clareza para aquilo que continua se repetindo na sua vida a dois, entre agora na Lista Prioritária.
+            <div class="space-y-4">
+                <div class="border border-[#F5EFE6] rounded-2xl overflow-hidden shadow-sm bg-[#FCF9F6]/40">
+                    <button onclick="toggleFaq(this)" class="w-full text-left p-6 font-bold text-base md:text-lg text-dark flex justify-between items-center hover:bg-[#FCF9F6] transition-colors">
+                        <span>O meu marido precisa ir comigo?</span>
+                        <i class="fas fa-chevron-down text-[#E08883] text-sm transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-dark/80 hidden border-t border-[#F5EFE6] bg-white pt-4 text-sm md:text-base leading-relaxed">
+                        Não. A imersão é um ambiente 100% focado e exclusivo para mulheres. O objetivo é que você compreenda o seu papel, o seu posicionamento e as suas respostas emocionais dentro da relação.
+                    </div>
+                </div>
+
+                <div class="border border-[#F5EFE6] rounded-2xl overflow-hidden shadow-sm bg-[#FCF9F6]/40">
+                    <button onclick="toggleFaq(this)" class="w-full text-left p-6 font-bold text-base md:text-lg text-dark flex justify-between items-center hover:bg-[#FCF9F6] transition-colors">
+                        <span>O que está incluído no valor do ingresso?</span>
+                        <i class="fas fa-chevron-down text-[#E08883] text-sm transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-dark/80 hidden border-t border-[#F5EFE6] bg-white pt-4 text-sm md:text-base leading-relaxed">
+                        O Ingresso Standard inclui acesso presencial de 4 horas, kit com caderno de exercícios e coffee break completo. A experiência VIP inclui também o almoço com a Pati Pasquali, 1 sessão estratégica individual, assento na frente VIP, foto exclusiva e caneca personalizada.
+                    </div>
+                </div>
+
+                <div class="border border-[#F5EFE6] rounded-2xl overflow-hidden shadow-sm bg-[#FCF9F6]/40">
+                    <button onclick="toggleFaq(this)" class="w-full text-left p-6 font-bold text-base md:text-lg text-dark flex justify-between items-center hover:bg-[#FCF9F6] transition-colors">
+                        <span>Como funciona a política de cancelamento?</span>
+                        <i class="fas fa-chevron-down text-[#E08883] text-sm transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-dark/80 hidden border-t border-[#F5EFE6] bg-white pt-4 text-sm md:text-base leading-relaxed">
+                        Você tem garantia legal de cancelamento e reembolso de 100% do valor pago em até 7 dias após a compra do ingresso, conforme o Código de Defesa do Consumidor.
+                    </div>
+                </div>
+
+                <div class="border border-[#F5EFE6] rounded-2xl overflow-hidden shadow-sm bg-[#FCF9F6]/40">
+                    <button onclick="toggleFaq(this)" class="w-full text-left p-6 font-bold text-base md:text-lg text-dark flex justify-between items-center hover:bg-[#FCF9F6] transition-colors">
+                        <span>Como recebo a confirmação do meu ingresso?</span>
+                        <i class="fas fa-chevron-down text-[#E08883] text-sm transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-dark/80 hidden border-t border-[#F5EFE6] bg-white pt-4 text-sm md:text-base leading-relaxed">
+                        Assim que o seu pagamento for aprovado, você receberá a confirmação instantânea por e-mail e uma mensagem de boas-vindas no WhatsApp com todas as orientações para o dia do evento.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-cream text-center border-t border-secondary/20">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="font-playfair text-3xl md:text-4xl text-dark font-bold mb-4">
+                A sua mudança começa com uma decisão presencial.
+            </h2>
+            <p class="text-lg text-primary font-bold mb-8">
+                Garantia de apenas 50 lugares na sala. 1º Lote por tempo limitado.
             </p>
 
-            <a href="https://chat.whatsapp.com/BiYr7R64HhuF4c99FFi9uz?mode=gi_t" target="_blank" class="inline-block bg-primary text-white font-bold text-lg md:text-xl py-4 px-8 md:px-12 rounded-full shadow-glow hover:bg-opacity-90 hover:-translate-y-1 transition-all duration-300 mb-6">
-                QUERO ENTRAR NA LISTA PRIORITÁRIA
+            <a href="#ingressos" class="inline-block bg-primary text-white font-bold text-lg md:text-xl py-4 px-12 rounded-full shadow-glow hover:bg-opacity-90 hover:-translate-y-1 transition-all duration-300">
+                GARANTIR MINHA CADEIRA PRESENCIAL
             </a>
-            
-            <p class="text-sm text-dark/60 max-w-xl mx-auto italic mt-4">
-                Você não está comprando nada agora. O cadastro apenas garante que você receba primeiro o acesso à abertura das inscrições.
-            </p>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-cream/70 py-10 text-center text-sm">
-        <div class="max-w-4xl mx-auto px-4 flex flex-col items-center justify-center gap-4">
+    <footer class="bg-dark text-cream/70 py-8 text-center text-xs md:text-sm">
+        <div class="max-w-4xl mx-auto px-4 flex flex-col items-center justify-center gap-3">
             <p class="font-bold text-secondary tracking-widest uppercase">Imersão Mulher de Valor: O Fim do Ciclo — 14.11.2026</p>
             <p>© 2026 Patricia Pasquali. Todos os direitos reservados.</p>
         </div>
     </footer>
-    
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M57WNVNJ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M57WNVNJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <!-- Script FAQ Toggle -->
+    <script>
+        function toggleFaq(btn) {
+            const content = btn.nextElementSibling;
+            const icon = btn.querySelector('i');
+            content.classList.toggle('hidden');
+            icon.classList.toggle('rotate-180');
+        }
+    </script>
     
 </body>
 </html>
